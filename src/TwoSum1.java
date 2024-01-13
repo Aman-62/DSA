@@ -37,8 +37,7 @@ public class TwoSum1 {
       
       map.put(nums[i],i);
     }
-
-    return new int[]{10,20};      
+    throw new IllegalArgumentException("No sum solution");  
   }
 }
 
